@@ -1,5 +1,8 @@
-# find the second largest number 
-l=[1,67,3,89,45,3,4]
-l.sort()
-print(l)
-print(l[-2])
+# check the letter is alphated are not
+
+name=input("enter the string  ")
+if name.isalpha():
+    print(f"{name} is an alphabet")
+else:
+    print(f"{name} is not an alphabeta")
+    

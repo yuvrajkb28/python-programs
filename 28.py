@@ -1,10 +1,9 @@
-# check the Anagram
-str1=input("enter the string 1 ")
-str2=input("enter the string 2 ")
-if len(str1)!=len(str2):
-    print("its not an Anagram  ")
-else:
-    if sorted(str1)==sorted(str2):
-        print("its Anagram ")
+# check whether a character is vowel or constant
+
+name=input("enter the string ")
+list1=["a","e","i","o","u"]
+for char in name.lower():
+    if char in list1:
+        print(f"{char} is a vowel")
     else:
-        print("its not Anagram  ")
+        print(f"{char} is a constant ")
