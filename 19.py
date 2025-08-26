@@ -8,3 +8,8 @@ while num2>0:
     num2=r
 gcd=num1
 print(gcd)
+
+
+
+
+
